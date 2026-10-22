@@ -24,7 +24,7 @@
     "url": "git+https://github.com/pbakaus/impeccable.git"
   },
   "engines": {
-    "node": ">=24"
+    "node": "^24.22.1 || >=26.12.1"
   },
   "type": "module",
   "bin": {
@@ -98,7 +98,7 @@
     "@paper-design/shaders": "^0.0.76",
     "ai": "^6.0.168",
     "archiver": "^8.0.0",
-    "astro": "^6.2.1",
+    "astro": "^7.4.2",
     "fontkit": "^2.0.4",
     "modern-screenshot": "^4.7.0",
     "motion": "^12.38.0",
@@ -106,5 +106,8 @@
     "playwright": "^1.59.1",
     "wrangler": "^4.85.0",
     "zod": "^4.3.6"
+  },
+  "overrides": {
+    "sharp": "0.35.5"
   }
 }
